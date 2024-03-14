@@ -31,4 +31,8 @@
     <bean id="dao" class="org.springmvc.dao.EmployeeDao">
         <property name="template" ref="jt"></property>
     </bean>
+
+    <bean id="controller" class="org.springmvc.controller.EmployeeController">
+<!--        <property name="dao" ref="dao"></property>-->
+    </bean>
 </beans>
